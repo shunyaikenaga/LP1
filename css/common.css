@@ -99,3 +99,93 @@ li {
   font-weight: 700;
   color: #ddd;
 }
+
+.section{
+  padding: 150px 0;
+  border-top: solid 3px #fe9;
+}
+
+.section:nth-of-type(odd){
+  background-color: #eee;
+}
+
+.about_img {
+  position: relative;
+}
+
+.about_img::after {
+  content: "";
+  position: absolute;
+  background: url("../img/about.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.concept_img {
+  position: relative;
+}
+
+.concept_img::after {
+  content: "";
+  position: absolute;
+  background: url("../img/concept.png") no-repeat center;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.descript {
+  margin-left: 60%;
+}
+
+.descript_left {
+  width: 40%;
+  height: 50%;
+}
+
+.title{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  line-height: 1.4;
+  font-size: 40px;
+  font-weight: bold;
+  color: #555;
+}
+
+.title span{
+  display: block;
+  font-size: 20px;
+}
+
+.txt h3 {
+  font-size: 30px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.txt p {
+  color: #555;
+}
+
+.txt p strong {
+  font-weight: bold;
+  color: #555;
+  background: linear-gradient(transparent 60%, #fe9);
+}
+
+
+
+
+
+
+
+
+
