@@ -181,11 +181,79 @@ li {
   background: linear-gradient(transparent 60%, #fe9);
 }
 
+.frame{
+  display: inline-table;
+  width: 100%;
+  height: 10%;
+  background-color: #eee;
+  border-radius: 5px;
+  margin:30px;
+  padding: 40px;
+}
 
+.txt_content{
+  display: inline-table;
+  width: 30%;
+  padding: 0 15px;
+}
 
+.txt h3 span{
+  display: block;
+  font-size: 20px;
+}
 
+.sub_title{
+  position: relative;
+  font-size: 18px;
+  color: #333;
+  padding: 10px 0;
+}
 
+.sub_title::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  background-color: #333;
+  width: 40%;
+  height: 2px;
+  margin-top: -1px;
+}
 
+.sub_title span{
+  position: relative;
+  padding-right: 10px;
+}
 
+.photo_content{
+  display: inline-table;
+  width: 30%;
+  margin: 15px;
+}
 
+.photo{
+  width: 100%;
+}
 
+.price_content{
+  display: inline-table;
+  width: 30%;
+  padding: 10px;
+}
+
+.price{
+  font-size: 17px;
+  width: 30%;
+  padding: 10px;
+}
+
+.price span{
+  margin-right: 5px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.price em{
+  font-style: italic;
+  font-size: 45px;
+}
